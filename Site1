@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<
+<head>  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Seguro</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            border: 2px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .hidden-content {
+            display: none;
+            margin-top: 20px;
+        }
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head
+</head>
+<body>
+<div class="container">  
+        <
+<h2>Área Restrita</h2>
+<p>Por favor, insira a senha para acessar o conteúdo:</p>
+<form id="loginForm">
+        
+
+         
+
+      
+
+  
+<input type="password" id="password" placeholder="Digite a senha" required>
+            
+            
+
+      
+<button type="submit">Entrar</button>
+        
+   
+</form>
+
+        
+
+       
+
+
+ 
+<div id="error" class="error-message" style="display: none;">
+            Senha incorreta! Tente novamente.
+        
+            Senha incorreta! Tente novamente.
+        </
+
+            Senha incorreta! Tente novamente
+
+            Senha incorreta! Tente novam
+
+            Senha incorreta! Tente 
+
+            Senha incorreta! T
+
+            Senha incorr
+
+            Senha 
+
+   
+</div>
+
+        
+
+        <
+
+
+  
+<div id="content" class="hidden-content">
+            
+            <
+
+         
+
+    
+<h3>Bem-vindo à área restrita!</h3>
+            
+       
+<p>Conteúdo protegido pela senha foi liberado.</p>
+        
+        
+
+     
+
+  
+</div>
+    </div>
+
+    
+
+    <
+
+
+<script>
+        con
+
+        
+
+     
+
+ 
+
+        const correctPassword = 'T3EP10
+
+        const correctPassword = 'T3
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('lo
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('p
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('password');
+        const content = document.getElementById('co
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('password');
+        const content = document.getElementById('content');
+        const errorMessage = document.getElementById('erro
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('password');
+        const content = document.getElementById('content');
+        const errorMessage = document.getElementById('error');
+
+        form.addEventListener('s
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('password');
+        const content = document.getElementById('content');
+        const errorMessage = document.getElementById('error');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const enteredPassword = passwordInput.value;
+
+            if (enteredPassword === correctPassword) {
+                content.style.display = 'block';
+                errorMessage.style.display = 'none
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('password');
+        const content = document.getElementById('content');
+        const errorMessage = document.getElementById('error');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const enteredPassword = passwordInput.value;
+
+            if (enteredPassword === correctPassword) {
+                content.style.display = 'block';
+                errorMessage.style.display = 'none';
+            } else {
+                errorMessage.style.display = 'block
+
+        const correctPassword = 'T3EP10';
+        const form = document.getElementById('loginForm');
+        const passwordInput = document.getElementById('password');
+        const content = document.getElementById('content');
+        const errorMessage = document.getElementById('error');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const enteredPassword = passwordInput.value;
+
+            if (enteredPassword === correctPassword) {
+                content.style.display = 'block';
+                errorMessage.style.display = 'none';
+            } else {
+                errorMessage.style.display = 'block';
+                content.style.display = 'none';
+            }
+
+            passwordInput.value = ''; // Limpar o campo de senha após o envio
+        });
+    </script>
+</
+</body>
+<
+</html>
